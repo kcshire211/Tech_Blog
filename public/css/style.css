@@ -23,3 +23,19 @@ header, .project:not(:last-child) {
     margin-left: -5px;
   }
   
+#welcome {
+  text-align: center
+  ;
+}
+
+#main_title {
+  text-align: center;
+  text-decoration: solid;
+}
+
+.btn {
+  color: aliceblue;
+  text-emphasis-style: bold;
+  background-color: #1b89bc;
+}
+
