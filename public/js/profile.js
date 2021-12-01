@@ -1,6 +1,6 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
-  
+    console.log("hello");
     const title = document.querySelector('#post-title').value.trim();
     const content = document.querySelector('#post-content').value.trim();
   
@@ -38,9 +38,10 @@ const newFormHandler = async (event) => {
   };
   
   document
-    .querySelector('.new-post-form')
-    .addEventListener('submit', newFormHandler);
+    .querySelector('#submit-btn')
+    .addEventListener('click', newFormHandler);
   
-  document
-    .querySelector('.post-list')
-    .addEventListener('click', delButtonHandler);
+  // document
+  //   .querySelector('#delete-btn')
+  //   .addEventListener('click', delButtonHandler);
+        //do the delete button and delete button handler on a post.handlebars

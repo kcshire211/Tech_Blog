@@ -1,3 +1,6 @@
+<!-- this will be a separate  page where it shows an individual post and gives the user the ability to delete the post -->
+
+
 <div id="post-profile">
     <p id="post-header">Add Title:</p><input id="post-title">
     <p id="post-header">Add Content:</p><textarea id="post-content"></textarea><br><br>
@@ -23,7 +26,25 @@
         </div>
     </div>
     {{/each}}
-    
+    <button id="delete-btn" class="btn">Delete Post</button>
 </div>
 
 <script src="/js/profile.js"></script>
+
+
+
+
+
+
+
+
+<button id="delete-btn" class="btn">Delete Post</button>
+
+<!-- QUERY SELECTOR FOR THE DELETE BUTTON BELOW
+// document
+  //   .querySelector('#delete-btn')
+  //   .addEventListener('click', delButtonHandler);
+        //do the delete button and delete button handler on a post.handlebars -->
+
+
+

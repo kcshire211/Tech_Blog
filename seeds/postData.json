@@ -1,16 +1,16 @@
 [
     {
-      "title": "Music Near Me",
-      "content": "A mobile app that will send you notifications whenever a concert is playing in your area."
+      "title": "HTML",
+      "content": "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content."
       
     },
     {
-      "title": "The Ultimate Tech Quiz",
-      "content": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+      "title": "CSS",
+      "content": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML"
     },
     {
-      "title": "Roll 'Em Up",
-      "content": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."     
+      "title": "Javascript",
+      "content": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive."     
     }
   ]
   

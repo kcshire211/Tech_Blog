@@ -83,3 +83,8 @@ textarea {
   font-size: 16px;
   resize: none;
 }
+
+.post_content {
+  border: #1b89bc;
+  border-width: 15px;
+}
