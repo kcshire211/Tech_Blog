@@ -5,16 +5,14 @@
 </div>
 
 <div id="post-history">
-    <card>Post History</card>
+    <card>Post History</card><br><br>
     {{#each posts as |post|}}
     <div class="row mb-4 post">
         <div class="col-md-5">
-            <h2> -->
-
-                {{{get_emoji}}}
-                <a href="/post/{{post.id}}">{{post.title}}</a>
-            </h2>
-            <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+            <p style="color:red;">>
+                <a style="color:rgb(0, 0, 0);" href="/post/{{post.id}}">{{post.title}}</a>
+            </p>
+            <p style="color:rgb(124, 124, 124); font-size:small;">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
         </div>
         <div class="col-md-7">
             <p>
