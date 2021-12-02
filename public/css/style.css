@@ -1,3 +1,7 @@
+* {
+  color: rgb(48, 52, 95);
+}
+
 header, .project:not(:last-child) {
     border-bottom: 3px solid #ccc;
   }
@@ -7,13 +11,13 @@ header, .project:not(:last-child) {
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #1b89bc;
+    color: rgb(48, 52, 95);
     text-decoration: none;
     font-size: 100%;
   }
   
   .no-button:hover {
-    color: #065b83;
+    color: rgb(48, 52, 95);
     text-decoration: underline;
   }
   
@@ -31,12 +35,13 @@ header, .project:not(:last-child) {
 #main_title {
   text-align: center;
   text-decoration: solid;
+  color: rgb(48, 52, 95);
 }
 
 .btn {
   color: aliceblue;
   text-emphasis-style: bold;
-  background-color: #1b89bc;
+  background-color: rgb(48, 52, 95);
 }
 
 #post-profile {
@@ -85,7 +90,7 @@ textarea {
 }
 
 .post_content {
-  border: #1b89bc;
+  border:rgb(48, 52, 95);
   border-width: 15px;
 }
 
@@ -101,4 +106,22 @@ textarea {
 
 #delete_btn:hover {
 background-color: rgb(107, 107, 107);
+}
+
+h1 {
+  color: rgb(48, 52, 95);
+}
+h2 {
+  color: rgb(48, 52, 95);
+}
+h3 {
+  color: rgb(48, 52, 95);
+}
+
+#main_title {
+  color: rgb(48, 52, 95);
+}
+
+#post_clr {
+  color: rgb(48, 52, 95);
 }
