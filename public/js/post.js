@@ -41,3 +41,7 @@ const newFormHandler = async (event) => {
     .querySelector('#submit-btn')
     .addEventListener('click', newFormHandler);
   
+  document
+    .querySelector('#delete-btn')
+    .addEventListener('click', delButtonHandler);
+        //do the delete button and delete button handler on a post.handlebars

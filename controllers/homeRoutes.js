@@ -81,4 +81,25 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+
+//below is copied from the profile route, do I use this for the posts route?
+router.get('/post/:id', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+      include: [{ model: Post }],
+    });
+
+    const user = userData.get({ plain: true });
+    console.log(user);
+    res.render('post', {
+      ...user,
+      logged_in: true
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;

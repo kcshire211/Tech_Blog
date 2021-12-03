@@ -94,6 +94,11 @@ textarea {
   border-width: 15px;
 }
 
+#post-history {
+  margin-right:28%;
+  margin-top: 15%;
+}
+
 #delete_btn {
   background-color: rgb(255, 255, 255);
   color: rgb(255, 0, 0);
@@ -106,6 +111,13 @@ textarea {
 
 #delete_btn:hover {
 background-color: rgb(107, 107, 107);
+}
+
+#post-delete-btn {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: rgb(165, 29, 29);
+  margin-left: 45%;
 }
 
 h1 {
