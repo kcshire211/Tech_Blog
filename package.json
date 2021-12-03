@@ -15,14 +15,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
     "bcrypt": "^5.0.0",
+    "cli-ux": "^5.6.5",
     "connect-session-sequelize": "^7.1.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.2",
+    "got": "^11.8.3",
     "heroku": "^7.59.2",
     "mysql2": "^2.2.5",
+    "phoenix": "^1.6.2",
     "sequelize": "^6.3.5"
   }
 }
